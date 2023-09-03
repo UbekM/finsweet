@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* The Manrope font is imported from Google */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+/* body styling for the font */
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+/* This is the website header styling. It contains the finsweet logo, menu text and road assistance icon */
+header {
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 13px;
+    font-family: 'Manrope', bold sans-serif;
+    font-weight: bolder;
+    
+}
+
+/* This is the menu text and road assistance styling */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+
+/* website top menu styling */
+.nav-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-text ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    column-gap: 30px;
+    padding-right: 30px;
+    border-right: 1.8px solid gray;
+    height: 30px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* road assistance styling. Include text and icon */
+.road-assistance {
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+    height: 100px;
+}
+
+/* Styling of road assistance text*/
+.road-assistance-text {
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.road-assistance-text h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.road-assistance-text p {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* styling of the main page the viewer sees after the header */
+main {
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+}
+
+.main-container {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.main-container .left-part {
+    width: 47%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.main-container .left-part .call-to-action {
+    font-size: 30px;
+    padding-right: 80px;
+    font-weight: 900;
+    height: 100%;
+    margin-top: 60px;
+    /* line-height: 85px; */
+}
+
+.main-container .left-part .call-to-action h2 {
+    font-weight: bolder;
+}
+
+.main-container .left-part .were-open {
+    font-size: 29px;
+    padding-right: 60px;
+    font-weight: 900;
+    height: 100%;
+    font-weight: bolder;
+}
+
+.main-container .left-part .btn {
+    padding-right: 60px;
+}    
+
+button {
+    border: transparent;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+    align-items: center;
+    padding: 10px 20px;
+    height: 55px;
+    width: 170px;
+    background-color: #FF6433;
+    border-radius: 9px;
+    font-family: 'Manrope', bold sans-serif;
+    margin-top: 28px;
+}
+
+/* Styling of call text*/
+.were-open {
+    display: flex;
+    font-size: 13px;
+    align-items: left;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.time-icon {
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.time-icon img {
+    display: block; 
+    margin: 0 auto;
+}
+
+.date h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    column-gap: 20px;
+}
+
+.date p {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.open-text {
+    display: flex;
+    align-items: center;
+}
+
+.main-container .right-part {
+    background-image: url(/img/Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 53%;
+    height: 100%;
+}
+
+main .main-container .right-part .service {
+    position: absolute;
+    left: 40%;
+}
+
+main .main-container .right-part .rating {
+    position: absolute;
+    right: 3%;
+    bottom: 4%;
+}
+
+.second-part {
+    height: 100vh;
+    background-color: #E2E6E9;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.left-second-part {
+    width: 50%;
+    height: 75%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.left-second-part h3 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.offer {
+    display: flex;
+    font-size: 12px;
+    align-items: left;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: left;
+}
+
+.offer-icon {
+    margin-right: 7px;
+    position: relative;
+    top: -8px;
+}
+
+.time-icon img {
+    display: block; 
+    margin: 0 auto;
+}
+
+.offer h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 7px;
+    column-gap: 10px;
+    font-weight: 700;
+}
+
+.offer p {
+    font-size: 13px;
+    font-weight: 700px;
+    padding-right: 95px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+.know-more {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 10px;
+    margin-left: 58px;
+}
+
+.know-more p {
+    font-weight: 700;
+}
+
+.know-more .arrow {
+    margin-top: 7px;
+}
+
+.right-second-part {
+    width: 50%;
+    height: 75%;
+    padding-right: 10%;
+}
+
+.right-second-part h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+.right-second-part input {
+    height: 58px;
+    width: 100%;
+    padding-left: 40px;
+    margin-bottom: 4px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Manrope', bold sans-serif;
+    font-weight: 600;
+}
+
+
+
