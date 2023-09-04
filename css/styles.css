@@ -190,7 +190,7 @@ button {
 }
 
 .main-container .right-part {
-    background-image: url(/.img\Image.png);
+    background-image: url(../img/Image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
