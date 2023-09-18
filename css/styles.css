@@ -49,7 +49,7 @@ header {
 
 .logo {
     font-size: 13px;
-    font-family: 'Manrope', bold sans-serif;
+    font-family: 'Manrope', bold, 'Kanit', sans-serif;
     font-weight: bolder;
     
 }
@@ -182,7 +182,7 @@ button {
     width: 170px;
     background-color: #FF6433;
     border-radius: 9px;
-    font-family: 'Manrope', bold sans-serif;
+    font-family: 'Manrope', bold, 'Kanit', sans-serif;
     margin-top: 28px;
     cursor: pointer;
     transition: all ease-in-out 0.4s;
@@ -353,7 +353,7 @@ main .main-container .right-part .rating {
     border: none;
     border-radius: 3px;
     font-size: 14px;
-    font-family: 'Manrope', bold sans-serif;
+    font-family: 'Manrope', bold, 'Kanit', sans-serif;
     font-weight: 600;
 }
 
@@ -405,7 +405,7 @@ main .main-container .right-part .rating {
     width: 150px;
     background-color: #FF6433;
     border-radius: 9px;
-    font-family: 'Manrope', bold sans-serif;
+    font-family: 'Manrope', bold, 'Kanit', sans-serif;
     margin-top: 28px;
     cursor: pointer;
     transition: all ease-in-out 0.4s;
@@ -611,7 +611,7 @@ main .main-container .right-part .rating {
     width: 130px;
     background-color: #000000;
     border-radius: 9px;
-    font-family: 'Manrope', bold sans-serif;
+    font-family: 'Manrope', bold, 'Kanit', sans-serif;
     margin-top: 28px;
     cursor: pointer;
     transition: all ease-in-out 0.4s;
