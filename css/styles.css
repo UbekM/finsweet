@@ -575,7 +575,7 @@ main .main-container .right-part .rating {
 }
 
 .fifth .get-in-touch .image-1 {
-    background-image: url(./img/Car.png);
+    background-image: url(../img/Car.png);
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -624,7 +624,7 @@ main .main-container .right-part .rating {
 }
 
 .fifth .get-in-touch .image-2 {
-    background-image: url(./img/repair.png);
+    background-image: url(../img/repair.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
