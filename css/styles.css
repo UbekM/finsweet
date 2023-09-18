@@ -683,7 +683,7 @@ main .main-container .right-part .rating {
 }
 
 .sixth .sixth-container .icons-tab{
-    column-gap: 80px;
+    column-gap: 100px;
     row-gap: 50px;
     flex-wrap: wrap;
     margin-top: 20px ;
