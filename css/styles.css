@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.html {
+    scroll-behavior: smooth;
+}
+
 /* The Manrope font is imported from Google */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,400;0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
@@ -80,6 +84,11 @@ nav {
     align-items: center;
     font-size: 14px;
     font-weight: 700;
+}
+
+.nav-text ul a{
+    text-decoration: none;
+    color: #000000;
 }
 
 /* road assistance styling. Include text and icon */
@@ -257,7 +266,7 @@ main .main-container .right-part .rating {
 
 /* second section styling */
 .second-part {
-    height: 100vh;
+    height: 110vh;
     background-color: #E2E6E9;
     display: flex;
     width: 100%;
@@ -268,7 +277,7 @@ main .main-container .right-part .rating {
 
 .left-second-part {
     width: 50%;
-    height: 75%;
+    height: 79%;
     padding-right: 10%;
     padding-left: 10%;
 }
@@ -333,7 +342,7 @@ main .main-container .right-part .rating {
 
 .right-second-part {
     width: 50%;
-    height: 75%;
+    height: 79%;
     padding-right: 10%;
 }
 
@@ -1003,4 +1012,37 @@ main .main-container .right-part .rating {
 
 .footer .part-two .part-two-container p {
     color: gray;
+}
+
+@media screen and (max-width: 425px) {
+    header {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    }
+
+    .header-body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    }
+
+    .nav, .nav-text, .nav-text ul {
+        flex-direction: column;
+        display: flex;
+    }
+    
+    main {
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
 }
