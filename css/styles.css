@@ -1364,7 +1364,7 @@ main .main-container .right-part .rating {
         justify-content: center;
         width: 80%;
         height: 28%;
-        column-gap: 30px;
+        column-gap: 40px;
         text-align: center;
         margin-bottom: 30px;
         margin-top: 10px;
@@ -1379,16 +1379,16 @@ main .main-container .right-part .rating {
     .sixth {
         flex-direction: column;
         width: 200%;
-        height: 60vh;
-        margin-bottom: 50px;
+        height: 80vh;
+        margin-bottom: 70px;
     }
 
     .sixth .sixth-container .icons-tab {
-        column-gap: 70px;
+        column-gap: 150px;
         row-gap: 30px;
         flex-wrap: wrap;
         margin-top: 20px;
-        width: 70%;
+        width: 80%;
     }
 
     .seventh {
@@ -1458,11 +1458,27 @@ main .main-container .right-part .rating {
         align-items: center;
         justify-content: center;
         width: 80%;
-        height: 15vh;
+        height: 18vh;
         color: #ffffff;
-        font-size: 13px;
+        font-size: 11px;
         flex-direction: column;
         margin-right: 35px;
+    }
+
+    .footer .part-two .part-two-container ul {
+        text-decoration: none;
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+
+    .footer .footer-container .part-one .container-1 .icons {
+        font-size: 19px;
+        width: 100%;
+        gap: 20px;
+        justify-content: space-between;
+        display: flex;
+        margin-bottom: 30px;
     }
 
 }
@@ -1921,4 +1937,12 @@ main .main-container .right-part .rating {
         row-gap: 5px;
     }
 
+    .footer .footer-container .part-one .container-1 .icons {
+        font-size: 19px;
+        width: 100%;
+        gap: 20px;
+        justify-content: space-between;
+        display: flex;
+        margin-bottom: 30px;
+    }
 }
